@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+     
+    body {
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    }
+     
+    /* ---------- HEADER ---------- */
+     
+    header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    font-size: 14px;
+    }
+     
+    header a {
+    padding: 6px;
+    color: #000;
+    text-decoration: none;
+    }
+     
+    header a:hover {
+    text-decoration: underline;
+    }
+     
+    header ion-icon {
+    font-size: 24px;
+    color: #777;
+    vertical-align: middle;
+    }
+     
+    header input {
+    background-color: #4d90fe;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 2px;
+    font-weight: 700;
+    }
+     
+    /* ---------- MAIN ---------- */
+     
+    main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+     
+    main img {
+    width: 100%;
+    max-width: 300px;
+    }
+
+    .searchbox{
+        margin-top: 30px;
+       max-width: 500px;
+       width:100%;
+       padding: 10px 20px;
+       font-size:16px;
+       box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08); 
+        border: none;
+    
+    }
+    .buttom input{
+        margian: 30px 5px;
+        background-color: #f2f2f2;
+        border: none;
+        border-radius: 2px;
+        padding: 10px 20px;
+        font-weight: 700;
+        color: #5c5c5c;
+        border: 1px soild transparent;
+    }
+    buttons input:hover{
+        color: #000;
+        border:1px soild 
+
+    }
+    /*-----FOOTER-----*/
+footer{
+    background-color: #f2f2f2;
+    color: #666;
+}
+
+footer a{
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    padding-right: 20px;
+}
+
+footer a:last-child{
+    padding-right: 0px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    border: 1px soild#e4e4e4;
+    padding: 10px 30px;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-between;
+}
+
